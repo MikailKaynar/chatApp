@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .mesaj {
+    @apply flex flex-col px-3 bg-slate-950 max-w-max ml-4 mt-1 rounded-xl rounded-ss-none text-lg text-white font-thin text-center ;
+  }
+  
+  .giden {
+    @apply flex mr-4 rounded-xl rounded-se-none flex-wrap-reverse justify-self-end ;
+  }
+}
